@@ -39,7 +39,7 @@
               animate(it == txt.length - 1 ? 0 : it + 1, direction == "left" ? "right" : "left");
             }
           });
-      }
+      };
   
     animate(0, "left");
   })(window.jQuery);
